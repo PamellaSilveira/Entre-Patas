@@ -41,7 +41,7 @@ Consolidar conhecimentos em:
 ## 🧠 Conceitos Praticados
 
 - Funções com `return`
-- Estruturas condicionais (`if/else` e operador ternário)
+- Estruturas condicionais 
 - Manipulação de eventos
 - Lógica de programação
 - Cálculo de porcentagem
