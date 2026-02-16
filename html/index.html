@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre Patas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" href="../img/pet-house.png" type="image/png">
+    <link rel="stylesheet" href="../css/style.css">
+
+
+
+
+</head>
+
+<body>
+    <div class="logo-central"></div>
+    <header class="nav-bar">
+
+        <img src="../img/logo.png" class="img-navbar" alt="Logo Entre Patas">
+        <h1 class="nav-text">Entre Patas</h1>
+        <p class="logo-subtitle">Onde seu pet se sente em casa</p>
+    </header>
+    </div>
+
+    <section class="card-vacina">
+
+        <!-- INFORMAÇÕES -->
+        <div class="card-info">
+            <h3>Descontos da Vacina</h3>
+
+            <ul>
+                <li>🐾 10% de desconto para clientes <strong>sem convênio</strong></li>
+                <li>🐾 20% de desconto para clientes com convênio <strong>Amigo</strong></li>
+                <li>🐾 50% de desconto para clientes com convênio <strong>Saúde Animal</strong></li>
+            </ul>
+        </div>
+
+        <!-- INPUTS -->
+        <div class="card-form">
+            <h3>Calcular valor</h3>
+
+            <div class="campo">
+                <label for="preco">Preço da vacina:</label>
+                <input type="number" id="preco" placeholder="R$">
+            </div>
+
+            <div class="campoConvenio">
+                <p>Possui convênio?</p>
+
+                <div class="radio-group">
+                    <label class="radio-item">
+                        <input type="radio" name="convenio" value="nao" checked>
+                        Não
+                    </label>
+
+                    <label class="radio-item">
+                        <input type="radio" name="convenio" value="sim">
+                        Sim
+                    </label>
+                </div>
+            </div>
+
+            <div class="campo hidden" id="listaConvenios">
+                <label for="tipoConvenio">Convênio:</label>
+                <select id="tipoConvenio">
+                    <option value="">Escolha</option>
+                    <option value="amigo">Amigo</option>
+                    <option value="saude">Saúde Animal</option>
+                </select>
+            </div>
+
+            <button onclick="calcular()">Calcular</button>
+            <p id="resultado"></p>
+        </div>
+
+    </section>
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- INFORMAÇÕES -->
+            <div class="footer-info">
+                <h3>Entre Patas 🐾</h3>
+                <p>Onde seu pet se sente em casa</p>
+
+                <p>📍 Porto Alegre - RS</p>
+                <p>📞 (51) 99999-9999</p>
+            </div>
+
+            <!-- MAPA -->
+            <div class="footer-map">
+                <iframe src="https://www.google.com/maps?q=Porto+Alegre+RS&output=embed" width="100%" height="200"
+                    style="border:0;" loading="lazy">
+                </iframe>
+            </div>
+
+            <!-- REDES SOCIAIS -->
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+
+                <div class="social-icons">
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Entre Patas - Todos os direitos reservados
+        </div>
+
+    </footer>
+
+
+    <script src="../js/js.js"></script>
+</body>
+
+</html>
